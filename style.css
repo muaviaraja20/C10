@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    color:lightgrey;
+    font-family:Arial ;
+}
+h1{
+    color:#58a6ff
+}
+a{
+    text-decoration :none;
+    color:lightgrey
+}
+a:hover{
+    color:blue
+}
+ul>li{
+    font-weight: bold;
+}
+h1+p{
+    color:green;
+}
+ul li:hover{
+    color:#4f8cc9
+}
+ul li:nth-child(3){
+    background-color: purple;
+}
+ul li::before{
+    content:"🚀"
+}
+a::after{
+    content:"🌌"
+}
+p::first-letter{
+    font-size: 200%;
+    color:orange
+}
